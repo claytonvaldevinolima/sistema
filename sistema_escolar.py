@@ -1,6 +1,7 @@
-a = 3
-b = 7
+aluno  = input("digite um nome")
+nota_1 = int(input("digite uma nota"))
+nota_2 = int(input("digite uma nota"))
+nota_3 = int(input("digite uma nota"))
 
-c = a + b
-
-print(c)
+media_final = (nota_1 + nota_2 + nota_3) / 3
+print(media_final)
